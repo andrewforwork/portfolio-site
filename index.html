@@ -7,7 +7,7 @@
 
     <title>portfolio-site</title>
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,22 +19,41 @@
 </head>
 
 <body>
-    <header class="footer">
-        <div class="container container_footer">
-            <img class="footer__logo" src="resources/logo-orlov.png" alt="Логотип Орлова">
-            <nav class="footer__nav">
-                <a class="footer__link" href="">портфолио</a>
-                <a class="footer__link" href="">компетенции</a>
-                <a class="footer__link" href="">услуги</a>
-                <a class="footer__link footer__link_right" href="">контакты</a>
-            </nav>
-        </div>
-    </header>
 
-    <main>
-        <section class="introduction">
+    <div class="introduction">
+        <header class="footer">
+            <div class="container container_footer">
+                <img class="footer__logo" src="resources/logo-orlov.png" alt="Логотип Орлова">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__wrapper">
+                            <a class="footer__link" href="">портфолио</a>
+                        </li>
+                        <li class="footer__wrapper">
+                            <a class="footer__link" href="">компетенции</a>
+                        </li>
+                        <li class="footer__wrapper">
+                            <a class="footer__link" href="">услуги</a>
+                        </li>
+                        <li class="footer__wrapper footer__wrapper_right">
+                            <a class="footer__link" href="">контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
+        <section class="about">
+            <div class="container container_about">
+                <p class="about__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+                    повышают
+                    престиж компании и позволяют выделиться на фоне конкурентов</p>
+                <h1>Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1>
+            </div>
         </section>
+    </div>
+    <main>
+
     </main>
 
 
