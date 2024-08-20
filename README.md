@@ -1,3 +1,3 @@
 # portfolio-site
 
-Проект для портфолио
+Проект для портфолио. Сайт располагается по адресу: https://andrewforwork.github.io/portfolio-site/
