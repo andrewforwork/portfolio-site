@@ -21,7 +21,6 @@ header {
   margin: 0 auto;
   max-width: 1180px;
   padding: 0 15px;
-  border: 1px solid red;
 }
 
 .footer__nav {
@@ -202,5 +201,53 @@ h1 {
 
 .skill__text {
   width: 778px;
+  line-height: 29px;
+}
+
+.services {
+  padding-bottom: 150px;
+  background-color: #000;
+}
+
+.service {
+  margin-bottom: 74px;
+}
+
+.service:nth-last-child(2) {
+  margin-bottom: 137px;
+}
+
+.service:last-child {
+  margin-bottom: 0;
+}
+
+.services__title {
+  width: 430px;
+  margin-bottom: 74px;
+  font-weight: 400;
+  font-size: 35px;
+  color: #fff;
+  line-height: 46px;
+}
+
+.service__wrapper {
+  padding: 40px 62px 40px 40px;
+  border-radius: 30px;
+  background-color: #191c19;
+}
+
+.service__title {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 55px;
+  color: #1bff07;
+  line-height: 72px;
+}
+
+.service__text {
+  width: 749px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
   line-height: 29px;
 }
