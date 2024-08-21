@@ -1,7 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   font-family: "IBM Plex Mono", sans-serif;
   letter-spacing: -0.03em;
+  background-color: #000;
+  font-weight: 400;
 }
 
 div.introduction {
@@ -36,7 +42,6 @@ header {
 .footer__link {
   font-size: 18px;
   line-height: 23px;
-  font-weight: 400;
   color: #fff;
   text-decoration: none;
 }
@@ -62,7 +67,6 @@ section.about {
 .about__text {
   width: 430px;
   margin-bottom: 29px;
-  font-weight: 400;
   font-size: 20px;
   color: #fff;
   line-height: 26px;
@@ -70,7 +74,6 @@ section.about {
 
 h1 {
   width: 919px;
-  font-weight: 400;
   font-size: 80px;
   line-height: 70px;
   color: #1bff07;
@@ -78,12 +81,10 @@ h1 {
 
 .projects {
   padding: 150px 0;
-  background-color: #000000;
 }
 
 .projects__title {
   margin-bottom: 40px;
-  font-weight: 400;
   font-size: 55px;
   color: #fff;
   line-height: 72px;
@@ -108,14 +109,12 @@ h1 {
 
 .project__title {
   margin-bottom: 5px;
-  font-weight: 400;
   font-size: 35px;
   line-height: 46px;
   color: #fff;
 }
 
 .project__text {
-  font-weight: 400;
   font-size: 30px;
   line-height: 39px;
   color: #fff;
@@ -131,7 +130,6 @@ h1 {
   width: 582px;
   height: 153px;
   background-color: #1bff07;
-  font-weight: 400;
   font-size: 30px;
   text-align: center;
   color: #000;
@@ -147,13 +145,11 @@ h1 {
 
 .skills {
   padding-bottom: 150px;
-  background-color: #000000;
   color: #fff;
 }
 
 .skills__title {
   margin-bottom: 48px;
-  font-weight: 400;
   font-size: 55px;
   color: #fff;
   line-height: 72px;
@@ -165,7 +161,6 @@ h1 {
 
 .skill__title {
   margin-bottom: 15px;
-  font-weight: 400;
   font-size: 35px;
   color: #1bff07;
   line-height: 46px;
@@ -206,7 +201,6 @@ h1 {
 
 .services {
   padding-bottom: 150px;
-  background-color: #000;
 }
 
 .service {
@@ -224,7 +218,6 @@ h1 {
 .services__title {
   width: 430px;
   margin-bottom: 74px;
-  font-weight: 400;
   font-size: 35px;
   color: #fff;
   line-height: 46px;
@@ -238,7 +231,6 @@ h1 {
 
 .service__title {
   margin-bottom: 15px;
-  font-weight: 400;
   font-size: 55px;
   color: #1bff07;
   line-height: 72px;
@@ -246,8 +238,47 @@ h1 {
 
 .service__text {
   width: 749px;
-  font-weight: 400;
   font-size: 22px;
   color: #fff;
   line-height: 29px;
+}
+
+.contacts {
+  padding-bottom: 150px;
+}
+
+.contacts__wrapper {
+  padding-top: 320px;
+  height: 717px;
+  background-image: url(../resources/contacts-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 30px;
+}
+
+.contacts__title {
+  margin-bottom: 28px;
+  font-size: 35px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact:last-child {
+  margin-bottom: 0;
+}
+
+.contact__link {
+  text-decoration: none;
+  font-size: 60px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.contact__link:hover {
+  color: #1bff07;
 }
