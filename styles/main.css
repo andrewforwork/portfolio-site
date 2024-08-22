@@ -5,9 +5,17 @@ html {
 body {
   width: 100%;
   font-family: "IBM Plex Mono", sans-serif;
-  letter-spacing: -0.03em;
   background-color: #000;
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  letter-spacing: -0.03em;
 }
 
 div.introduction {
@@ -20,7 +28,6 @@ div.introduction {
 
 header {
   padding-top: 33px;
-  margin-bottom: 259px;
 }
 
 .container {
@@ -35,7 +42,7 @@ header {
 }
 
 .header__wrapper {
-  margin-right: 50px;
+  margin-right: 42px;
   display: inline-block;
 }
 
@@ -60,7 +67,7 @@ div.introduction {
 
 section.about {
   position: absolute;
-  bottom: 94px;
+  bottom: 88px;
   width: 100%;
 }
 
@@ -74,9 +81,11 @@ section.about {
 
 h1 {
   width: 951px;
+  margin-left: -3px;
   font-size: 80px;
   line-height: 70px;
   color: #1bff07;
+  letter-spacing: -0.03em;
 }
 
 .projects {
@@ -128,14 +137,16 @@ h1 {
 }
 
 .projects__btn {
+  display: block;
   width: 582px;
   height: 153px;
+  padding-top: 60px;
+  border-radius: 10px;
   background-color: #1bff07;
   font-size: 30px;
   text-align: center;
   color: #000;
-  padding: 57px 0;
-  border-radius: 10px;
+  text-decoration: none;
 }
 
 .projects__btn:hover {
@@ -150,7 +161,7 @@ h1 {
 }
 
 .skills__title {
-  margin-bottom: 48px;
+  margin-bottom: 46px;
   font-size: 55px;
   color: #fff;
   line-height: 72px;
@@ -198,10 +209,11 @@ h1 {
 .skill__text {
   width: 778px;
   line-height: 29px;
+  font-size: 22px;
 }
 
 .services {
-  margin-bottom: 150px;
+  margin-bottom: 147px;
 }
 
 .service {
@@ -218,16 +230,21 @@ h1 {
 
 .services__title {
   width: 430px;
-  margin-bottom: 74px;
+  margin-bottom: 70px;
   font-size: 35px;
   color: #fff;
   line-height: 46px;
 }
 
 .service__wrapper {
-  padding: 40px 62px 40px 40px;
+  height: 283px;
+  padding: 40px 0 0 40px;
   border-radius: 30px;
   background-color: #191c19;
+}
+
+.service__wrapper:last-child {
+  padding-top: 38px;
 }
 
 .service__title {
@@ -249,7 +266,7 @@ h1 {
 }
 
 .contacts__wrapper {
-  padding-top: 320px;
+  padding-top: 315px;
   height: 717px;
   background-image: url(../resources/contacts-background.png);
   background-repeat: no-repeat;
@@ -285,13 +302,13 @@ h1 {
 }
 
 .footer {
-  padding: 76px 0 24px 0;
+  padding: 73px 0 25px 0;
   background-color: #ffffff;
   border-radius: 30px 30px 0 0;
 }
 
 .footer__text {
-  margin-bottom: 66px;
+  margin-bottom: 72px;
   line-height: 30px;
   font-family: "Manrope", sans-serif;
   font-size: 22px;
