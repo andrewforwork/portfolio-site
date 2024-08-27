@@ -18,22 +18,25 @@ a {
   letter-spacing: -0.03em;
 }
 
-div.introduction {
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 15px;
+}
+
+header {
   height: 765px;
+  padding-top: 33px;
   background-image: url(../resources/fullscreen-img.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
-header {
-  padding-top: 33px;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1180px;
-  padding: 0 15px;
+.header__logo {
+  width: 130px;
+  height: 39px;
+  margin-bottom: 259px;
 }
 
 .header__nav {
@@ -61,17 +64,7 @@ header {
   color: #1bff07;
 }
 
-div.introduction {
-  position: relative;
-}
-
-section.about {
-  position: absolute;
-  bottom: 88px;
-  width: 100%;
-}
-
-.about__text {
+.header__text {
   width: 430px;
   margin-bottom: 29px;
   font-size: 20px;
