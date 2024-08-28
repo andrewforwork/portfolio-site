@@ -23,57 +23,50 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="resources/logo-orlov.png" alt="Логотип Орлова">
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__wrapper">
+                        <a class="header__link" href="#projects">портфолио</a>
+                    </li>
+                    <li class="header__wrapper">
+                        <a class="header__link" href="#skills">компетенции</a>
+                    </li>
+                    <li class="header__wrapper">
+                        <a class="header__link" href="#services">услуги</a>
+                    </li>
+                    <li class="header__wrapper header__wrapper_right">
+                        <a class="header__link" href="#contacts">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="header__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+                повышают
+                престиж компании и позволяют выделиться на фоне конкурентов</p>
+            <h1>Привет, я Саша — фронтенд разработчик<br /> и дизайнер сайтов</h1>
+        </div>
+    </header>
 
-    <div class="introduction">
-        <header class="header">
-            <div class="container container_header">
-                <img class="header__logo" src="resources/logo-orlov.png" alt="Логотип Орлова">
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__wrapper">
-                            <a class="header__link" href="#projects">портфолио</a>
-                        </li>
-                        <li class="header__wrapper">
-                            <a class="header__link" href="#skills">компетенции</a>
-                        </li>
-                        <li class="header__wrapper">
-                            <a class="header__link" href="#services">услуги</a>
-                        </li>
-                        <li class="header__wrapper header__wrapper_right">
-                            <a class="header__link" href="#contacts">контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <section class="about">
-            <div class="container container_about">
-                <p class="about__text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-                    повышают
-                    престиж компании и позволяют выделиться на фоне конкурентов</p>
-                <h1>Привет, я Саша — фронтенд разработчик<br /> и дизайнер сайтов</h1>
-            </div>
-        </section>
-    </div>
     <main>
         <section id="projects" class="projects">
             <div class="container">
                 <h2 class="projects__title">Самые свежие проекты</h2>
                 <ul class="projects__list">
-                    <li class="project">
+                    <li class="project" style="background-image: url(../resources/project1.png);">
                         <div class="project__wrapper">
                             <h3 class="project__title">Realhome</h3>
                             <p class="project__text">дизайн,верстка, настройка</p>
                         </div>
                     </li>
-                    <li class="project">
+                    <li class="project" style="background-image: url(../resources/project2.png);">
                         <div class="project__wrapper">
                             <h3 class="project__title">GLASS</h3>
                             <p class="project__text">разработка интерфейса</p>
                         </div>
                     </li>
-                    <li class="project">
+                    <li class="project" style="background-image: url(../resources/project3.png);">
                         <div class="project__wrapper">
                             <h3 class="project__title">Fesiyen</h3>
                             <p class="project__text">разработка интерфейса</p>
@@ -140,7 +133,7 @@
                     </li>
                     <li class="service">
                         <img src="resources/service2.png" alt="Верстка сайтов" class="service__img">
-                        <div class="service__wrapper">
+                        <div class="service__wrapper service__wrapper_layout">
                             <h3 class="service__title">Верстка сайтов</h3>
                             <p class="service__text">Это процесс создания HTML-документов и применения к ним стилей на
                                 CSS.
@@ -181,15 +174,15 @@
                 </div>
             </div>
         </section>
-
-        <footer class="footer">
-            <div class="container">
-                <p class="footer__text">Портфолио фротнтенд-разработчика Саши Орлова</p>
-                <p class="footer__rules">Все права защищены. 2023</p>
-            </div>
-        </footer>
-
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Портфолио фротнтенд-разработчика Саши Орлова</p>
+            <p class="footer__rules">Все права защищены. 2023</p>
+        </div>
+    </footer>
+
 
 
 </body>
